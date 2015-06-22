@@ -29,4 +29,25 @@
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+
+    <!-- Screen security -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+
+    <string name="link_volume_option_title">Link ringtone &amp; notification volumes</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+
+    <!-- FINGERPRINT -->
+    <!-- Summary for "Configure lockscreen" when security Fingerprint is enabled [CHAR LIMIT=45] -->
+    <string name="unlock_set_unlock_mode_fingerprint">Fingerprint</string>
+    <!-- Title for preference that guides the user through creating a fingerprint [CHAR LIMIT=22] -->
+    <string name="unlock_set_unlock_fingerprint_title">Fingerprint</string>
+    <!-- List item title to add a new fingerprint in fingerprint list screen -->
+    <string name="fingerprint_item_add_new_fingerprint">Add new fingerprint</string>
+    <!-- Title for preference in fingerprint lockscreen settings, takes user to fingerprint list -->
+    <string name="fingerprint_manage_fingerprints">Manage fingerprints</string>
+    <!-- Info explaining the backup lock which is used for fingerprint -->
+    <string name="unlock_backup_fingerprint_info_summary">If you cannot use your finger, how do you want to unlock?</string>
 </resources>
