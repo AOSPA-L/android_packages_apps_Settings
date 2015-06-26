@@ -39,11 +39,11 @@ import android.provider.SearchIndexableResource;
 import android.provider.Settings.Global;
 import android.provider.Settings.System;
 import android.telephony.TelephonyManager;
+import android.hardware.CmHardwareManager;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.android.settings.hardware.VibratorIntensity;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 
@@ -138,15 +138,6 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         }
     };
 
-    private static final SettingPref PREF_VIBRATION_INTENSITY = new SettingPref(
-            TYPE_SYSTEM, KEY_VIBRATION_INTENSITY, System.HAPTIC_FEEDBACK_ENABLED, DEFAULT_ON) {
-        @Override
-        public boolean isApplicable(Context context) {
-            return VibratorIntensity.isSupported();
-        }
-    };
-
-
     private static final SettingPref PREF_DOCK_AUDIO_MEDIA = new SettingPref(
             TYPE_GLOBAL, KEY_DOCK_AUDIO_MEDIA, Global.DOCK_AUDIO_MEDIA_ENABLED,
             DEFAULT_DOCK_AUDIO_MEDIA, DOCK_AUDIO_MEDIA_DISABLED, DOCK_AUDIO_MEDIA_ENABLED) {
@@ -201,7 +192,6 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         PREF_VOLUME_ADJUST_SOUND,
         PREF_DOCK_AUDIO_MEDIA,
         PREF_EMERGENCY_TONE,
-        PREF_VIBRATION_INTENSITY,
     };
 
     private final SettingsObserver mSettingsObserver = new SettingsObserver();
@@ -215,6 +205,16 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         addPreferencesFromResource(R.xml.other_sound_settings);
 
         mContext = getActivity();
+        
+        // vibration intensity
+        CmHardwareManager cmHardwareManager =
+                (CmHardwareManager) getSystemService(Context.CMHW_SERVICE);
+        if (!cmHardwareManager.isSupported(CmHardwareManager.FEATURE_VIBRATOR)) {
+            Preference preference = prefSet.findPreference(KEY_VIBRATION_INTENSITY);
+            if (preference != null) {
+                prefSet.removePreference(preference);
+            }
+        }        
 
         // power state change notification sounds
         mPowerSounds = (SwitchPreference) findPreference(KEY_POWER_NOTIFICATIONS);
