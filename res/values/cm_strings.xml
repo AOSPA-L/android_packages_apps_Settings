@@ -50,4 +50,5 @@
     <string name="fingerprint_manage_fingerprints">Manage fingerprints</string>
     <!-- Info explaining the backup lock which is used for fingerprint -->
     <string name="unlock_backup_fingerprint_info_summary">If you cannot use your finger, how do you want to unlock?</string>
+
 </resources>
