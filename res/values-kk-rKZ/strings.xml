@@ -1129,8 +1129,6 @@
     <string name="license_title" msgid="1990487604356037871">"Лицензия"</string>
     <string name="terms_title" msgid="7697580845616764642">"Шарттары"</string>
     <string name="webview_license_title" msgid="2813507464175738967">"Жүйенің WebView лицензиясы"</string>
-    <string name="wallpaper_attributions" msgid="3645880512943433928">"Экранның артқы фондары"</string>
-    <string name="wallpaper_attributions_values" msgid="2996183537914690469">"Жерсерік кескіндерін жеткізушілер:\n©2014 CNES/Astrium, DigitalGlobe, Bluesky"</string>
     <string name="settings_license_activity_title" msgid="7553683406244228650">"Бастапқы лицензияларды ашу"</string>
     <string name="settings_license_activity_unavailable" msgid="4210539215951487627">"Лицензияларды жүктеу барысында мәселе орын алды."</string>
     <string name="settings_license_activity_loading" msgid="3337535809093591740">"Жүктелуде..."</string>
