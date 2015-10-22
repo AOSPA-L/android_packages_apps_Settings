@@ -123,4 +123,6 @@
 
     <string name="ok">OK</string>
 
+    <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
+    <string name="security_patch">Android security patch level</string>
 </resources>

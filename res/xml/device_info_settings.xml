@@ -97,6 +97,12 @@
                 android:title="@string/device_name"
                 android:summary="@string/device_info_default"/>
 
+        <!-- Security patch level -->
+        <Preference android:key="security_patch"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/security_patch"
+                android:summary="@string/device_info_default"/>
+
         <!-- Device hardware model -->
         <Preference android:key="device_model"
                 style="?android:preferenceInformationStyle"
