@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="unlock_quick_unlock_control_title">ඉක්මන් අගුළු ඇරීම</string>
+  <string name="unlock_quick_unlock_control_summary">නිවැරදි PIN හෝ මුරපදය ඇතුලත් කලවිට ස්වයංක්‍රීයව අගුළු අරින්න</string>
+  <string name="unlock_scramble_pin_layout_title">සැලැස්ම පටලවන්න</string>
+  <string name="unlock_scramble_pin_layout_summary">උපාංගය අගුළු අරින විට PIN සැලැස්ම පටලවන්න</string>
+  <string name="ok">හරි</string>
+</resources>

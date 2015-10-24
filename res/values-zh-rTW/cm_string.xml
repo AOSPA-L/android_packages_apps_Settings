@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="lockpattern_settings_enable_error_path_title">顯示解鎖圖形錯誤</string>
+  <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形點</string>
+  <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+  <string name="unlock_quick_unlock_control_summary">當正確的 PIN 碼/密碼被輸入時自動解鎖</string>
+  <string name="unlock_scramble_pin_layout_title">亂序布局</string>
+  <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 布局</string>
+  <string name="link_volume_option_title">同步鈴聲和通知音量</string>
+  <string name="notification_volume_option_title">通知音量</string>
+  <string name="unlock_set_unlock_mode_fingerprint">指紋</string>
+  <string name="unlock_set_unlock_fingerprint_title">指紋</string>
+  <string name="fingerprint_item_add_new_fingerprint">新增新的指紋</string>
+  <string name="fingerprint_manage_fingerprints">管理指紋感應</string>
+  <string name="fingerprint_manage_fingerprints_summary">新增或刪除已登記的指紋</string>
+  <string name="fingerprint_dialog_title_rename">編輯指紋</string>
+  <string name="fingerprint_dialog_name_label">指紋名稱</string>
+  <string name="fingerprint_enrollment_error_title_wrong_sensor">請再試一次</string>
+  <string name="fingerprint_enrollment_error_title_wrong_sensor">請再試一次</string>
+  <string name="fingerprint_enrollment_error_title_1">哦噢，請再試一次</string>
+  <string name="fingerprint_enrollment_error_title_4">哦噢，再試一次</string>
+  <string name="fingerprint_enrollment_finished_title">已新增指紋!</string>
+  <string name="fingerprint_enrollment_done_label">完成</string>
+  <string name="fingerprint_dialog_title_wrong_sensor">哎呦，這不是您的感應器</string>
+  <string name="ok">確定</string>
+</resources>

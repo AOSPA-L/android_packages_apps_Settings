@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="unlock_quick_unlock_control_title">Ātrā atslēgšana</string>
+  <string name="unlock_quick_unlock_control_summary">Automātiski atslēgt, kad ir ievadīts pareizs PIN/parole</string>
+  <string name="unlock_scramble_pin_layout_title">Samaisīt izkārtojumu</string>
+  <string name="unlock_scramble_pin_layout_summary">Atslēdzot iekārtu, samaisīt PIN izkārtojumu</string>
+  <string name="ok">Labi</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="lockpattern_settings_enable_error_path_title">Afișare eroare model</string>
+  <string name="lockpattern_settings_enable_dots_title">Afișare puncte model</string>
+  <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+  <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce codul PIN/parola corectă</string>
+  <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>
+  <string name="unlock_scramble_pin_layout_summary">Amestecă așezarea în pagină a ecranului de PIN atunci când se deblochează aparatul</string>
+  <string name="notification_volume_option_title">Volum notificare</string>
+  <string name="unlock_set_unlock_mode_fingerprint">Amprentă</string>
+  <string name="unlock_set_unlock_fingerprint_title">Amprentă</string>
+  <string name="fingerprint_manage_fingerprints">Gestionare amprente digitale</string>
+  <string name="fingerprint_dialog_title_rename">Editare amprentă</string>
+  <string name="fingerprint_dialog_name_label">Nume amprentă</string>
+  <string name="fingerprint_enrollment_error_title_wrong_sensor">Vă rugăm să încercați din nou</string>
+  <string name="fingerprint_enrollment_error_title_wrong_sensor">Vă rugăm să încercați din nou</string>
+  <string name="fingerprint_enrollment_finished_title">Amprentă adăugată!</string>
+  <string name="fingerprint_enrollment_done_label">Efectuat</string>
+  <string name="fingerprint_dialog_title_failed_enrollment">Nu se poate citi amprenta</string>
+  <string name="fingerprint_enrollment_restart_label">Repornire</string>
+  <string name="fingerprint_successful_scan_title_first">Perfect! Acum repetă</string>
+  <string name="fingerprint_successful_scan_title_2">Minunat! Din nou</string>
+  <string name="fingerprint_successful_scan_title_6">Aproape gata</string>
+  <string name="setup_lock_pattern_size_title">Complexitatea modelului</string>
+  <string name="ok">OK</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="unlock_quick_unlock_control_title">দ্রুত অবমুক্ত</string>
+  <string name="unlock_quick_unlock_control_summary">স্বয়ংক্রিয়ভাবে অবমুক্ত হবে যখন সঠিক পিন/পাসওয়ার্ড লিখা হবে</string>
+  <string name="unlock_scramble_pin_layout_title">একত্র বিন্যাস</string>
+  <string name="unlock_scramble_pin_layout_summary">একত্র পিন বিন্যাস যখন ডিভাইস অবমুক্ত করার সময়</string>
+  <string name="ok">ওকে</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="link_volume_option_title">Zəng səsi ilə bildiriş səsini bağla</string>
+  <string name="manage_fingerprints_description">Barmaq izləri cihaz kilidinizi tez açıb fotoşəkil çəkməyinizə icazə verər.</string>
+  <string name="ok">Oldu</string>
+</resources>
